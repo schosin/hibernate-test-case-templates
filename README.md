@@ -1,12 +1,5 @@
-# Hibernate Test Case Templates
+# String id via uuid2 vs. MS SQL Server
 
-When creating a bug report for any project within the Hibernate family, it's extremely helpful (and, frankly, required)
-to have an adequate test case available.  This is obviously important to make reproducing the issue as easy as
-possible.  But it's also vital longer-term.  Nearly every bug fix should include a regression test, which frequently is based
-on the original reproducer (sometimes, it's the reproducer, verbatim).
+Test case showing an issue with  String ids generated with uuid2 and saved in a MS SQL Server uniqueidentifier column
 
-To help create useful test cases, we're opening up this repo with various templates.  Please see the READMEs in each
-project's subdir for more info.
-
-As always, this is open source for a reason!  If these templates can be improved in any way, please let us know (either
-through our JIRA instance or through GitHub Issues).  Better yet, send us a pull request!
+Forum thread: https://discourse.hibernate.org/t/string-uuid2-vs-ms-sql-uniqueidentifier/1329
